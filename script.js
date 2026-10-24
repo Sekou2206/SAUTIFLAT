@@ -83,8 +83,8 @@
     const callAnchor = $('[data-anchor=call]', stage);
     const whoItems = $$('.who-list li', stage);
     const gridL = $('#gridL'), gridD = $('#gridD'), rings = $('#rings');
-    const O = [255, 67, 46, 1], W = [255, 255, 255, .15];
-    const CH = [29, 29, 29], RD = [214, 57, 43], CR = [241, 235, 223];
+    const O = [255, 67, 40, 1], W = [0, 0, 0, 1];
+    const CH = [0, 0, 0], RD = [255, 67, 40], CR = [255, 254, 250];
     let A = null, top = 0, len = 1, track = [];
 
     const windows = {

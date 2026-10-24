@@ -1,4 +1,4 @@
-# SAUTI — site statique
+# SAUTI, site statique
 
 L'accueil raconte le film SAUTI en animation pilotée par le scroll : le point orange du logo traverse toute la page et se transforme (point final du titre, grand cercle, repère de la liste, cœur de la méthode, bouton, puis logo).
 
@@ -33,3 +33,7 @@ Puis ouvrir http://localhost:8000
 - Longueur de l'animation : `--story` dans style.css (820svh par défaut).
 - Moments de l'animation : tableaux `windows` et `track` dans script.js (valeurs de 0 à 1).
 - Si le visiteur a activé « réduire les animations », les scènes s'affichent les unes sous les autres, sans animation.
+
+## Palette
+
+Uniquement #ff4328, #fffefa et #000000 (textes, fonds, traits, logos, icônes).
